@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Append User Input to JSON file</title>
+
+	<style>
+		body{
+		 background-color: #cce6ff;
+		}
+		header{
+		 text-align: center;
+		 height: 100px;
+		 padding-top: 1px;
+		 background-color: #3399ff;
+		 color: #FFFFFF;
+		 font-size: x-large;
+		}
+		h3{
+		 margin-top: 2px;
+		 text-align: center;
+		 background-color: #80bfff;
+		}
+		form{
+		 width: 45%;
+		 display: inline-block;
+		 margin: 20px;
+		}
+		footer{
+		 margin-top: 3%;
+		 text-align: center;
+		}
+	</style>
+</head>
+
+
+<body>
+	<form action='http://localhost:3000' id="userActivity" method="POST">
+	    <fieldset>
+	      <h3>Please input your activity here:</h3>
+	      <label>Date: </label>
+	      <input type="text" id="date" name="date" required>
+	      <br><br>
+	      <label>From: </label>
+	      <input type="text" id="start" name="start" required>
+	      <br><br>
+	      <label>To: </label>
+	      <input type="text" id="end" name="end" required>
+	      <br><br>
+	      <label>Activity: </label>
+	      <input  type="text" id="activity" name="activity" required>
+	      <br><br>
+	      <label>Activity: </label>
+	      	<select name="preference" id="preference">
+	      		<option value="none"> </option>
+			  	<option value="less">I want to spend less time on this!</option>
+			  	<option value="more">I want to spend more time on this!</option>
+			  	<option value="perfect">I felt my time spend on this is well spent :)</option>
+			</select>
+			<br><br>
+	      <button type ="reset">Reset</button>
+	      <button type ="submit">Submit</button>
+	    </fieldset>
+	</form>
+</body>
+
+<!-- <script src="test.js"></script> -->
+
+
+</html>

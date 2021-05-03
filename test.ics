@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//InstantServers Inc.//Web Calendar 0.50//EN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20070411T171938Z
+UID:1
+DTSTART:20080303T200000Z
+DTEND:20080303T210000Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;WKST=SU
+SUMMARY:Embed a calendar
+DESCRIPTION:Embed a calendar into your web site.
+  Embed any ordinary calendar as a fully interactive widget.
+  Save and print events\, send reminder messages and notifications\,
+  get map and weather information\, export RSS feeds.\n
+  <a href='http://instantcal.com/setup.html'>Setup information</a>
+  
+LOCATION: 229 Polaris Avenue\, Mountain View\, CA 94043
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20070411T171938Z
+UID:2
+DTSTART:20080303T203000Z
+DTEND:20080303T210000Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;WKST=SU
+SUMMARY:Customize calendar
+DESCRIPTION:Customize your calendar. 
+  Select a display type and color theme.
+  Customize the look and feel of your calendar.
+  Embed calendar using an iFrame\, button\, link\, or div.\n
+  <a href='http://instantcal.com/api.html'>View API</a>
+  
+LOCATION: 229 Polaris Avenue\, Mountain View\, CA 94043
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20070411T171938Z
+UID:3
+DTSTART:20080303T210000Z
+DTEND:20080303T220000Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;WKST=SU
+SUMMARY:Feedback
+DESCRIPTION:Send feedback\, questions or comments to: info@instantcal.com
+LOCATION:229 Polaris Avenue\, Mountain View\, CA 94043
+END:VEVENT
+END:VCALENDAR
